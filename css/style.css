@@ -176,7 +176,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: 0px 4px 4px 0pX rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -564,39 +564,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.sbc-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  padding: 8px 24px;
-  min-width: 165px;
-  height: 40px;
-  background-color: #4d5ae5;
-  border: #4d5ae5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: white;
-  cursor: pointer;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sbc-button:hover,
-.sbc-button:focus {
-  background-color: #31d0aa;
-  border: #31d0aa;
-}
-
-
-
-.footer-button-picture {
-  margin-left: 16px;
-}
-
 .modal-overlay {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
@@ -787,7 +754,7 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  color: transparent;
   margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
